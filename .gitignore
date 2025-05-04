@@ -1,0 +1,28 @@
+# 仮想環境
+.venv/
+venv/
+env/
+
+# Pythonバイトコード
+*.pyc
+__pycache__/
+
+# LLM関連で生成される可能性のある一時ファイルやキャッシュ
+*.safetensors # モデルファイルなど、もし誤って含まれたら
+*.bin
+.ipynb_checkpoints # Jupyter Notebookを使う場合
+
+# IDE関連ファイル
+.vscode/
+.idea/
+*.swp
+
+# APIキーなどの機密情報ファイル (もし環境変数でなくファイルを使う場合)
+# 注意: 環境変数を使うのが最も安全です
+.env
+api_keys.txt
+
+# 生成される可能性のある大きなデータファイルやモデルファイル（リポジトリに含めない場合）
+# data/processed/
+# models/
+# embeddings/ # ベクトルDBのデータなど
