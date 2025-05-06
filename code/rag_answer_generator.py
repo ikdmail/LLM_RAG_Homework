@@ -139,7 +139,7 @@ class VectorStore:
             print("No chunks to add.")
             return
 
-        print(f"Creating embeddings for {len(chunks)} chunks using '{self.embedding_model.model_name_or_path}'...")
+        print(f"Creating embeddings for {len(chunks)} chunks using '{EMBEDDING_MODEL_NAME}'...")
         self.chunks = chunks
         # Compute embeddings
         try:
