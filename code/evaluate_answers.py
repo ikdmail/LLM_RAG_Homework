@@ -517,4 +517,3 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"エラー: 評価結果の保存中にエラーが発生しました: {e}")
-```
